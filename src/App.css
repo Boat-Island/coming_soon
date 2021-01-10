@@ -13,15 +13,33 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.container {
+  background-image: url("./assests/images/Bg.svg");
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 15% 0 10%;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+}
+
+button{
+  width: 30%;
+  background: linear-gradient(134.01deg, #B33BF6 -23.61%, #F15223 59.07%, #FF844C 103.79%);
+  border: none;
+  border-radius: 12px;
+  outline-style: none;
+  color: #fff;
+}
+
+
+
+input{
+  width: 60%;
+  border-radius: 12px;
+  border: none;
+  outline-style: none;
 }
 
 .App-link {
