@@ -1,0 +1,40 @@
+@media screen and (max-width: 768px) {
+    .calender-content {
+        display: none;
+    }
+    .calender-mobile {
+        display: block;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    .wishlist {
+        display: none;
+    }
+    .wishlist-mobile {
+        display: flex!Important;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .btn-subscribe {
+        width: 100%;
+        margin-left: 0!Important;
+    }
+    .email {
+        margin-bottom: 12px;
+        width: 305px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .btn-subscribe {
+        width: 100%;
+        margin-left: 0!Important;
+    }
+    .email {
+        margin-bottom: 12px;
+        width: 275px;
+    }
+}

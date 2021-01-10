@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Eina 04';
+    src: url('../fonts/Eina-04-W03-Light.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'Avenir-Roman';
+    src: url('../fonts/Avenir-Roman.otf') format('otf');
+}
+
+* {
+    font-family: 'Avenir-Roman'!important;
+}
+
+.calender-mobile {
+    display: none;
+}
