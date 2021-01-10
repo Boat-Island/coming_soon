@@ -11,9 +11,12 @@
         display: none;
     }
     .wishlist-mobile {
+        display: block!Important;
+        margin-top: 30px;
+    }
+    .wishlist-content {
         display: flex!Important;
         justify-content: space-between;
-        margin-top: 30px;
     }
 }
 

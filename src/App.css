@@ -68,6 +68,10 @@ input {
   border: 2px solid #FE7944;
 }
 
+.wishlist {
+  margin-top: 80px;
+}
+
 .wishlist-mobile {
   display: none;
 }
