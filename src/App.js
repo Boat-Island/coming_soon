@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import './App.css';
 import Calendar from "./assests/images/Calendar.png"
 import twitter from "./assests/images/twitter.png"
@@ -27,6 +28,8 @@ const social = [
 ]
 
 function App() {
+  const [processing, setProcrssing] = useState(false);
+
   return (
     <div className="container">
       <div className="content">
@@ -41,7 +44,11 @@ from selling their art to the world!</p>
 when we launch 🚀</h1>
           <div>
             <input className="email" style={{ height: 50, paddingLeft: 10 }} placeholder="Email address" />
-            <button className="btn-subscribe" style={{ height: 55, marginLeft: 10, cursor: "pointer" }}>
+            <button
+              onClick={() => setProcrssing(true)}
+              disabled={processing}
+              className="btn-subscribe"
+              style={{ height: 55, marginLeft: 10, cursor: "pointer" }}>
               Okay, I’m in!
         </button>
           </div>

@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Eina 04';
-    src: url('../fonts/Eina-04-W03-Light.otf') format('otf');
+    font-family: 'Eina 02';
+    src: url('../fonts/Eina02-Regular.ttf') format('woff');
 }
 
 @font-face {
@@ -9,7 +9,7 @@
 }
 
 * {
-    font-family: 'Avenir-Roman'!important;
+    font-family: 'Eina 02'!important;
 }
 
 .calender-mobile {
