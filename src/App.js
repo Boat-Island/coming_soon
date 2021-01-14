@@ -21,10 +21,10 @@ import person_03 from "./assests/images/avatars/person13.jpeg"
 import person_04 from "./assests/images/avatars/person14.jpeg"
 
 const social = [
-  { icon: twitter, to: "twitter.com/#", alt: "Twitter" },
-  { icon: instagram, to: "instagram.com/#", alt: "Instagram" },
-  { icon: facebook, to: "facebook.com/#", alt: "Facebook" },
-  { icon: dribbble, to: "dribbble.com/#", alt: "Dribbble" }
+  { icon: twitter, to: "https://twitter.com/The_BoatIsland", alt: "Twitter" },
+  { icon: instagram, to: "https://instagram.com/The_BoatIsland", alt: "Instagram" },
+  { icon: facebook, to: "https://facebook.com/#", alt: "Facebook" },
+  { icon: dribbble, to: "https://dribbble.com/#", alt: "Dribbble" }
 ]
 
 function App() {
@@ -49,12 +49,13 @@ when we launch 🚀</h1>
               disabled={processing}
               className="btn-subscribe"
               style={{ height: 55, marginLeft: 10, cursor: "pointer" }}>
-              Okay, I’m in!
+              {!processing && <span>Okay, I’m in!</span>}
+              {processing && <div class="">Processing...</div>}
         </button>
           </div>
           <div style={{ marginTop: 20, marginLeft: 10, width: "50%", display: "flex", justifyContent: "space-between" }}>
             {social.map(({ icon, alt, to }) => (
-              <a href={to} >
+              <a href={to} target="_blank" >
                 <img src={icon} alt={alt} />
               </a>
             ))}
