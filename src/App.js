@@ -21,6 +21,7 @@ import person_01 from "./assests/images/avatars/person11.jpeg"
 import person_02 from "./assests/images/avatars/person12.jpeg"
 import person_03 from "./assests/images/avatars/person13.jpeg"
 import person_04 from "./assests/images/avatars/person14.jpeg"
+import logo_svg from "./assests/images/Logo.svg";
 
 const social = [
   { icon: twitter, to: "https://twitter.com/The_BoatIsland", alt: "Twitter" },
@@ -56,7 +57,7 @@ function App() {
       <div className="content">
         <div>
           <div className="calender-mobile">
-            <img src={Calendar} alt="calendar" />
+            <img src={logo_svg} alt="calendar" />
           </div>
           <p style={{ textTransform: "uppercase" }}>Coming Soon</p>
           <p>A creative marketplace where indivduals can make money<br />from selling their art to the world!</p>
@@ -87,7 +88,7 @@ function App() {
         </div>
 
         <div className="calender-content">
-          <img src={Calendar} alt="calendar" />
+          <img src={logo_svg} alt="calendar" />
         </div>
       </div>
 
@@ -154,7 +155,7 @@ function App() {
           </div>)}
         </div>
       </div>
-    </div>
+    </div >
   );
 }
 
