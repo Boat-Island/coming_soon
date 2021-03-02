@@ -60,7 +60,10 @@ function App() {
             <img src={logo_svg} alt="calendar" />
           </div>
           <p style={{ textTransform: "uppercase" }}>Coming Soon</p>
-          <p>A creative marketplace where indivduals can make money<br />from selling their art to the world!</p>
+          {/* <p>A creative marketplace where indivduals can make money<br />from selling their art to the world!</p> */}
+          <p>A digital platform where creators can manage<br />and monetize exclusive contents, within a community,
+          <br/>giving members easy access to explore these exclusive contents.<br/>
+          </p>
           <h1>Get notified<br />when we launch 🚀</h1>
           <div>
             <input
