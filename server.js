@@ -1,13 +1,13 @@
 var path = require('path');
 var express = require('express');
-var sslRedirect = require('heroku-ssl-redirect');
+// var sslRedirect = require('heroku-ssl-redirect');
 
 var app = express();
 
 app.use(express.static(path.join(__dirname, 'build')));
 var cors = require('cors')
 
-app.use(sslRedirect.default());
+// app.use(sslRedirect.default());
 
 app.use(cors())
 app.get('*', (request, response) => {
